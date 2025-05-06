@@ -10,6 +10,8 @@ up:
 	@echo 'curl http://localhost:8080/test'
 	@echo "or"	
 	@echo 'curl -H "API_KEY: Example123" http://localhost:8080/test'
+	@echo "Starting the app..."
+	@echo 
 	@go run ./cmd/main.go
 
 
