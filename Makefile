@@ -6,7 +6,6 @@ up:
 	@echo "Running redis in Docker..."
 	@docker-compose up -d
 	@echo "Waiting for Redis to start..."
-	# @sleep 5
 	@echo "You can send requests to the app by typing:"
 	@echo 'curl http://localhost:8080/test'
 	@echo "or"	
